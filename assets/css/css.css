@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #25293e;
+}
+
+.azatcelik{
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  background-color: #161926;
+  padding: 5px;
+  display: none;
+  position: absolute;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+  background-color: #161926;
+  padding: 5px;
+  display: none;
+  position: absolute;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display:block;
+  right: 10px;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display:block;
+}
+
+
+.navbar{
+  color: #edf0f1;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+.navul{
+  list-style: none;
+}
+
+.navul a{
+  color: #edf0f1;
+  background-color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  width: 120;
+  transition: all 0.1s ease 0s;
+}
+
+.navul a:hover{
+  background-color: #6c749a;
+}
+
+.navul a li{
+  color: #edf0f1;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 17px;
+  width: 120px; 
+  transition: all 0.1s ease 0s;
+}
+
+.navul a li:hover{
+  color: #0a1129;
+  background-color: #6c749a;
+}
+
+.btext{
+  font-family: Kanit, sans-serif;
+  font-size: 30px;
+  color: #edf0f1;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 35px;
+  background-color: transparent;
+}
+
+.ctext{
+  font-family: Text Me One, sans-serif;
+  color: #edf0f1;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 29px;
+  background-color: transparent;
+}
+
+.c2text{
+  font-family: Text Me One, sans-serif;
+  color: #c3d55f;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: transparent;
+}
+
+
+.instwit{
+  display: inline-flex;
+  list-style: none;
+  color: #edf0f1;
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+}
+
+.instwit .a1{
+  color: #edf0f1;
+  background-color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  width: 120;
+  padding: 15px;
+  
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.1s ease 0s;
+}
+
+.instwit .a1:hover{
+  background-color: #6c749a;
+}
+
+.instwit .a1 li{
+  color: #edf0f1;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 17px;
+  width: 120px; 
+  transition: all 0.1s ease 0s;
+}
+
+.instwit .a2{
+  color: #edf0f1;
+  background-color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  width: 120;
+  padding: 15px;
+  
+  border-radius: 20px 0px 0px 20px;
+  transition: all 0.1s ease 0s;
+}
+
+.instwit .a2:hover{
+  background-color: #6c749a;
+}
+
+.instwit .a2 li{
+  color: #edf0f1;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 17px;
+  width: 120px; 
+  transition: all 0.1s ease 0s;
+}
+.spang{
+  background-color: transparent;
+}
+
